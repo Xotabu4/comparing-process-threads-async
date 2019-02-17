@@ -1,0 +1,16 @@
+{
+  "name": "js_tests_parallelization",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --verbose false --maxWorkers=50"
+  },
+  "author": "Oleksadr Khotemskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "24.1.0"
+  },
+  "jest": {
+    "maxConcurrency": 50
+  }
+}

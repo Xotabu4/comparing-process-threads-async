@@ -1,0 +1,17 @@
+{
+  "name": "js_tests_parallelization",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "view": "http-server -p 3333 ./profiling"
+  },
+  "author": "Oleksadr Khotemskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "0.18.0"
+  },
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false
+  }
+}

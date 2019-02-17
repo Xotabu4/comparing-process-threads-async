@@ -1,0 +1,13 @@
+{
+  "name": "js_tests_parallelization",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node node_modules/.bin/toundra --threads 50 test.js"
+  },
+  "author": "Oleksadr Khotemskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "toundra": "1.0.0"
+  }
+}

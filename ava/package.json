@@ -1,0 +1,22 @@
+{
+  "name": "js_tests_parallelization",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "ava --tap --env=node",
+    "reset": "ava --reset-cache"
+  },
+  "author": "Oleksadr Khotemskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "1.2.1",
+    "tap-nyan": "^1.1.0"
+  },
+  "ava": {
+    "files": [
+      "tests/concurrent.js"
+    ],
+    "babel": false,
+    "compileEnhancements": false
+  }
+}
